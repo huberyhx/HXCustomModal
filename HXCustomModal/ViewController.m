@@ -47,7 +47,7 @@
     
     //设置弹出View的frame
     self.popoverAnimator.presentFrame = CGRectMake(100, 55, 180, 250);
-
+    //设置转场代理
     jumpVc.transitioningDelegate = self.popoverAnimator;
     [self presentViewController:jumpVc animated:YES completion:nil];
     
